@@ -6,8 +6,16 @@ public class Photo {
 
     private String fileName;
 
-    // raw data
+    public Photo() {
 
+    }
+
+    public Photo(String id, String fileName) {
+        this.id = id;
+        this.fileName = fileName;
+    }
+
+    // raw data
 
     public String getId() {
         return id;
